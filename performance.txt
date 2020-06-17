@@ -1,0 +1,32 @@
+This is the file which lists the comparison between Task 2 and Task 3 of Hadoop and Task 1 and Task 2 of Spark.
+
+NOTE: All operations were run on the local machine for both Hadoop and Spark(standalone mode).
+
+Local Machine Configurations:
+OS: Windows 10
+RAM: 8 GB
+Hard disk: 512 GB
+Processor: 1.8 GHz
+
+
+Time measurement methodology: 
+
+I used the time given on the output screen of both Hadoop and Spark to calculate the total time taken for 
+a) getting the input, 
+b) map and reduce functions and,
+c) writing results to the output directory.
+
+The time were then added to arrive at the total time taken by the program. Given below are the results for both Hadoop and Spark tasks. 
+Usually, we see that Spark is much faster than Hadoop for both tasks.
+
+Time Comparisons Results :
+
+1) For task 2 (Hadoop) and task 1 (Spark):
+
+	i) Total Time taken for Task 2(Hadoop): 7.166 seconds
+	ii) Total Time taken for Task 1(Spark): 1.456 seconds
+
+2) For task 3 (Hadoop) and task 2 (Spark): 
+
+	i) Total Time taken for Task 3(Hadoop): 6.86 seconds
+	ii) Total Time taken for Task 2(Spark): 1.125 seconds
